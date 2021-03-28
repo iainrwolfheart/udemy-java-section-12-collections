@@ -6,34 +6,34 @@ public class Main {
 
     public static void main(String[] args) {
 
-        HeavenlyBody temp = new Planet("Mercury", 88);
-        solarSystem.put(temp.getKey(), temp);
-        planets.add(temp);
-
-        temp = new Planet("Earth", 365);
-        solarSystem.put(temp.getKey(), temp);
-        planets.add(temp);
-
-        HeavenlyBody tempMoon = new Moon("Moon", 27);
-        solarSystem.put(tempMoon.getKey(), tempMoon);
-        temp.addSatellite(tempMoon);
-
-        temp = new Planet("Jupiter", 4332);
-        solarSystem.put(temp.getKey(), temp);
-        planets.add(temp);
-
-        tempMoon = new Moon("Io", 1.8);
-        solarSystem.put(tempMoon.getKey(), tempMoon);
-        temp.addSatellite(tempMoon);
-
-        tempMoon = new Moon("Ganymede", 3.5);
-        solarSystem.put(tempMoon.getKey(), tempMoon);
-        temp.addSatellite(tempMoon);
-
-        System.out.println("Planets:");
-        for(HeavenlyBody planet: planets) {
-            System.out.println("\t" + planet);
-        }
+//        HeavenlyBody temp = new Planet("Mercury", 88);
+//        solarSystem.put(temp.getKey(), temp);
+//        planets.add(temp);
+//
+//        temp = new Planet("Earth", 365);
+//        solarSystem.put(temp.getKey(), temp);
+//        planets.add(temp);
+//
+//        HeavenlyBody tempMoon = new Moon("Moon", 27);
+//        solarSystem.put(tempMoon.getKey(), tempMoon);
+//        temp.addSatellite(tempMoon);
+//
+//        temp = new Planet("Jupiter", 4332);
+//        solarSystem.put(temp.getKey(), temp);
+//        planets.add(temp);
+//
+//        tempMoon = new Moon("Io", 1.8);
+//        solarSystem.put(tempMoon.getKey(), tempMoon);
+//        temp.addSatellite(tempMoon);
+//
+//        tempMoon = new Moon("Ganymede", 3.5);
+//        solarSystem.put(tempMoon.getKey(), tempMoon);
+//        temp.addSatellite(tempMoon);
+//
+//        System.out.println("Planets:");
+//        for(HeavenlyBody planet: planets) {
+//            System.out.println("\t" + planet);
+//        }
 
 //        Theatre theatre = new Theatre("Olympian", 8, 12);
 //        List<Theatre.Seat> seatCopy = new ArrayList<>(theatre.seats);
